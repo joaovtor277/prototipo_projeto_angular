@@ -4,7 +4,12 @@ body{
     padding: 0;
     background-color: black;
     color: white;
+    height: auto;
+    min-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
 
 header{
     background-color: black;
@@ -16,7 +21,7 @@ header{
     align-items: center;
     gap: 120px;
     border-bottom: 2px solid white;
-    height: 85px;
+    height: 100px;
 
 }
 
@@ -49,8 +54,11 @@ nav ul li a {
   }
 
 main{
-   min-height: 100vh;
+   min-height: auto;   /* ocupa pelo menos a tela toda */
+   height: auto;        /* deixa crescer conforme o conteúdo */
+   display: block;      /* garante comportamento padrão */
 }
+
 
 
 footer{

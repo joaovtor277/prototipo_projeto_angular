@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-around;
     padding: 50px;
-    min-height: 100vh;
+    min-height: auto;
   }
   
   /* Texto do Hero */

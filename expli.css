@@ -1,0 +1,19 @@
+.expli {
+  background: white;        /* cor diferente pra destacar */
+  padding: 80px 20px;      /* espaço interno */
+  text-align: center;
+}
+
+.expli h1, .expli h3, .expli p {
+  color: black
+}
+
+.expli ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
